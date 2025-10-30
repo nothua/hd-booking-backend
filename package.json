@@ -1,15 +1,12 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "backend for booking",
   "license": "ISC",
-  "author": "",
-  "type": "commonjs",
-  "main": "index.js",
+  "author": "Hua",
+  "main": "src/index.ts",
   "scripts": {
-    "start": "ts-node src/index.ts",
-    "build": "tsc",
-    "serve": "node dist/index.js"
+    "start": "bun run src/index.ts"
   },
   "devDependencies": {
     "@types/cors": "^2.8.19",
