@@ -136,5 +136,4 @@ const seedDatabase = async () => {
     }
 };
 
-// --- 4. RUN THE SCRIPT ---
 seedDatabase();
